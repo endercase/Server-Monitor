@@ -1,32 +1,26 @@
 {
-  "name": "mrgr",
-  "address": "3125853987625788223L",
-  "serverip": "123.123.123.123",
-  "serverport": "9100",
+  "name": "seatrips",
+  "address": "2675385658327038858S",
+  "serverip": "seatrips.shiftnrg.nl",
+  "serverport": "9305",
   "servers": {
     "server1": {
-      "name": "Main",
+      "name": "seatrips2",
       "http": "http",
-      "ip": "123.123.123.123",
-      "port": "8000"
+      "ip": "seatrips2.shiftnrg.nl",
+      "port": "9305"
     },
     "server2": {
-      "name": "Backup 1",
+      "name": "seatrips3",
       "http": "http",
-      "ip": "124.124.124.124",
-      "port": "8000"
+      "ip": "seatrips3.shiftnrg.nl",
+      "port": "9305"
     },
     "server3": {
-      "name": "Backup 2",
+      "name": "shiftcommunity",
       "http": "http",
-      "ip": "125.125.125.125",
-      "port": "8000"
-    },
-    "server4": {
-      "name": "Backup 3",
-      "http": "http",
-      "ip": "126.126.126.126",
-      "port": "8000"
+      "ip": "shiftcommunity.shiftnrg.nl",
+      "port": "9305"
     }
   }
 }
