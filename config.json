@@ -1,0 +1,32 @@
+{
+  "name": "mrgr",
+  "address": "3125853987625788223L",
+  "serverip": "123.123.123.123",
+  "serverport": "9100",
+  "servers": {
+    "server1": {
+      "name": "Main",
+      "http": "http",
+      "ip": "123.123.123.123",
+      "port": "8000"
+    },
+    "server2": {
+      "name": "Backup 1",
+      "http": "http",
+      "ip": "124.124.124.124",
+      "port": "8000"
+    },
+    "server3": {
+      "name": "Backup 2",
+      "http": "http",
+      "ip": "125.125.125.125",
+      "port": "8000"
+    },
+    "server4": {
+      "name": "Backup 3",
+      "http": "http",
+      "ip": "126.126.126.126",
+      "port": "8000"
+    }
+  }
+}

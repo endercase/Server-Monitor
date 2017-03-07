@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lisk monitor">
+    <meta name="author" content="mrgr">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/main.css" type="text/css">
+<title>Lisk monitor</title>
+</head>
+<body>
+<div class="row" id="container">
+        <div class="navbar" id="navbar">
+            <img src="resources/icon_3.png">
+Lisk monitor
+        </div>
+    
+   <div class="col-md-6">
+        <table id="nodeTable" summary="Lisk node monitor" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Server</th>
+                    <th>Height</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+       <span id="dataMessages"></span>
+       <br>
+        <div class="nextturn_bar">
+             Next turn in <span id="nextturn">300s</span>
+        </div>
+       <hr>
+    </div>
+    <div class="col-md-6">
+        <table id="nodeTable" summary="Delegate data" class="table table-striped">
+            <tbody>
+                <tr>
+                    <td>Rank</td>
+                    <td><span id="rank">00</span></td>
+                </tr>
+                <tr>
+                    <td>Productivity</td>
+                    <td><span id="productivity">00</span></td>
+                </tr>
+                <tr>
+                    <td>Produced blocks</td>
+                    <td><span id="producedBlocks">000</span></td>
+                </tr>
+                <tr>
+                    <td>Missed blocks</td>
+                    <td><span id="missedBlocks">00</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="loading" style="width: 100%; height: 100%;">
+        <div class="col-md-12" style="background: url('resources/icon_2.png') no-repeat center center transparent; width: 100%; height: 100%;">
+            <span id="loadingData">Loading...</span>
+        </div>
+</div>
+<script src="resources/script.js" type="application/javascript"></script>
+</body>
+</html>
