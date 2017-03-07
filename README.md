@@ -49,4 +49,9 @@ After you finish and save your changes from config.json, run in a background pro
 If you access from a device that you have in your servers whitelist, you will be able to obtain almost realtime data.<br>
 If you access from a device that is no in your servers whitelist, you will obtain the data with a delay of 20 seconds maximum.<br><br>
 
-Optimum method of use. If you are in your office or home computer whitelist that IP's and open chrome on your server's address, you will not need to check everytime how your servers are performing, chrome will alert you if none of your servers are forging. When the page load is complete you will recieve a first alert to test and for you to see how it works.
+Optimum method of use. If you are in your office or home computer whitelist that IP's and open chrome on your server's address, you will not need to check everytime how your servers are performing, chrome will alert you if none of your servers are forging. When the page load is complete you will recieve a first alert to test and for you to see how it works.<br><br>
+
+###Output example
+
+![Alt text](https://github.com/mrgrshift/Server-Monitor/blob/master/resources/Screenshot1.png?raw=true "Screenshot 1")
+![Alt text](https://github.com/mrgrshift/Server-Monitor/blob/master/resources/Screenshot2.png?raw=true "Screenshot 2")
