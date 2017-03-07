@@ -6,6 +6,7 @@ Tool to watch your servers status. Height, Consensus and Forging status.
     - You need to have Lisk installed.
     - Install this script only in one server and make sure you whitelist this server's IP in all servers.
     - You need to have [fs, http, node-cmd, path] installed in npm, for example: npm install node-cmd
+    - Make sure to add your new serverport number to your firewall. If you are using UFW maybe this can help you: [UFW - First time with a firewall] (https://forum.lisk.io/viewtopic.php?f=38&t=1342)
 
 #Installation
 You need to edit config.json file with all your proper data. The structure is as follows:
