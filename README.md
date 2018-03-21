@@ -3,13 +3,14 @@ Tool to watch your servers status. Height, Consensus and Forging status.
 
 <br>
 #Requisites
-* You need to have Shift installed.
-* Install this script only in one server and make sure you whitelist this server's IP in all servers.
-* You need to have [fs, http, node-cmd, path] installed in npm, for example: npm install node-cmd
-* Make sure to add your new serverport number to your firewall. If you are using UFW maybe this can help you: [UFW - First time with a firewall] (https://forum.lisk.io/viewtopic.php?f=38&t=1342)
+* You need to have Shift installed.<br>
 
-#Installation
-You need to edit config.json file with all your proper data. The structure is as follows:
+* Install this script only in one server and make sure you whitelist this server's IP in all servers.<br>
+* You need to have [fs, http, node-cmd, path] installed in npm, for example: npm install node-cmd<br>
+* Make sure to add your new serverport number to your firewall. If you are using UFW maybe this can help you: [UFW - First time with a firewall] (https://forum.lisk.io/viewtopic.php?f=38&t=1342)<br>
+
+#Installation<br>
+You need to edit config.json file with all your proper data. The structure is as follows:<br>
 ```
 {
   "name": "mrgr",
@@ -53,7 +54,8 @@ If you access from a device that is no in your servers whitelist, you will obtai
 Optimum method of use. If you are in your office or home computer whitelist that IP's and open chrome on your server's address, you will not need to check everytime how your servers are performing, chrome will alert you if none of your servers are forging. When the page load is complete you will recieve a first alert to test and for you to see how it works.<br><br>
 
 ###Output example
-
-SCREENSHOTS NEED UPDATED
+<br><br>
+SCREENSHOTS NEED UPDATED<br>
+<br>
 ![Alt text](https://github.com/mrgrshift/Server-Monitor/blob/master/resources/Screenshot1.png?raw=true "Screenshot 1")
 ![Alt text](https://github.com/mrgrshift/Server-Monitor/blob/master/resources/Screenshot2.png?raw=true "Screenshot 2")
