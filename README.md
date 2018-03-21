@@ -37,6 +37,7 @@ You need to edit config.json file with all your proper data. The structure is as
   }
 }
 ```
+<br>
 All data fields are obligatory.<br>
 <b>name</b>: It is the name of your delegate.<br>
 <b>address</b>: It is the address of your delegate.<br>
