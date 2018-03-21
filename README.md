@@ -3,7 +3,7 @@ Tool to watch your servers status. Height, Consensus and Forging status.
 
 <br>
 #Requisites
-* You need to have Lisk installed.
+* You need to have Shift installed.
 * Install this script only in one server and make sure you whitelist this server's IP in all servers.
 * You need to have [fs, http, node-cmd, path] installed in npm, for example: npm install node-cmd
 * Make sure to add your new serverport number to your firewall. If you are using UFW maybe this can help you: [UFW - First time with a firewall] (https://forum.lisk.io/viewtopic.php?f=38&t=1342)
@@ -54,5 +54,6 @@ Optimum method of use. If you are in your office or home computer whitelist that
 
 ###Output example
 
+SCREENSHOTS NEED UPDATED
 ![Alt text](https://github.com/mrgrshift/Server-Monitor/blob/master/resources/Screenshot1.png?raw=true "Screenshot 1")
 ![Alt text](https://github.com/mrgrshift/Server-Monitor/blob/master/resources/Screenshot2.png?raw=true "Screenshot 2")
